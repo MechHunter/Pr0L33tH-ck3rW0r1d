@@ -1,0 +1,122 @@
+left#4CAF50html {
+	border: solid green 3px;
+}
+h1, h2, h3, p {
+	color: green;
+	font-family: verdana, helvetica, arial, sans-serif;
+	line-height: 1.6em;
+}
+html{
+	background-image:url(../images/code.jpg);
+	background-repeat:repeat-y;
+	background-size: 100%;
+}
+.body {
+	display: block;
+	padding: 30px;
+}
+.img1 {
+	border: solid green 3px;
+	padding: 15px;
+	width: 90%;
+}
+.nav {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: verdana, helvetica, arial, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.img2 {
+	width: 50px;
+}
+.introtext {
+	text-align: center;
+}.pageheader {
+	background-color: black;
+	border: 2px solid green;
+	padding: 2%;
+	margin: 2%
+}
+.content {
+	background-color: black;
+	padding: 2%;
+	margin: 2%;
+	border: 3px solid green;
+}
+.hackerworld {
+	text-align: center;
+}
+.link {
+	padding: 10%;
+	text-align: center;
+}
+.link a:link{
+	color: green;
+	background-color: none;
+	text-decoration: none;
+	padding: 5px;
+	border: solid green 1px;
+}
+.link a:visited{
+	color: green;
+	background-color: none;
+	text-decoration: none;
+	padding: 5px;
+	border: solid green 1px;
+}
+.link a:hover{
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	padding: 5px;
+}
+.link a:active{
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	padding: 5px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	border: solid green 1px;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: green;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: green;
+	color: black;
+}
+.active {
+	background-color: green;
+	color: black;
+}

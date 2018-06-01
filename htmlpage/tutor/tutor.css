@@ -1,0 +1,128 @@
+sdleft#4CAF50html {
+	border: solid green 3px;
+}
+h1, h2, h3, p {
+	color: green;
+	font-family: verdana, helvetica, arial, sans-serif;
+	line-height: 1.6em;
+}
+html{
+	background-image:url(../../images/code.jpg);
+	background-repeat:repeat-y;
+	background-size: 100%
+}
+.body {
+	padding: 30px;
+	background-color: black;
+	display: block;
+	margin-left: 10%;
+	margin-right: 20%;
+	border: solid green 3px;
+}
+.img1 {
+	border: solid green 3px;
+	padding: 15px;
+	width: 90%
+}
+h1 {
+	text-align: center;
+}
+h1, h2 {
+	border-bottom: 2px solid green;
+}
+.img2 {
+	width: 50px;
+}
+.nav {
+	margin: 5%;
+	font-family: verdana, helvetica, arial, sans-serif;
+}
+.introtext {
+	text-align: center;
+	padding-top: 200px;
+}
+.hackerworld {
+	text-align: center;
+	border: solid green 3px;
+	margin: 10% 10% 10% 10%;
+}
+.chapter {
+	font-family: verdana, helvetica, arial, sans-serif;
+	position: fixed;
+	text-align: center;
+	border: solid green 1px;
+	margin-left: 70%;
+	width: 100px;
+}
+div.order {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: black;
+	display: block;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-top: 15px;
+	border: solid green 3px;
+}
+.link {
+	text-align: center;
+	padding-top: 200px;
+}
+.link a:link{
+	color: green;
+	background-color: none;
+	text-decoration: none;
+	padding: 5px;
+	border: solid green 1px;
+}
+.link a:visited{
+	color: green;
+	background-color: none;
+	text-decoration: none;
+	padding: 5px;
+	border: solid green 1px;
+}
+.link a:hover{
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	padding: 5px;
+}
+.link a:active{
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	padding: 5px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	border: solid green 1px;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: green;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: green;
+	color: black;
+}
+
+.active {
+	background-color: green;
+	color: black;
+}
